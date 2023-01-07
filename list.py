@@ -17,3 +17,8 @@ for num1 in range(0, int(99.12)):
     for num2 in range(0, int(99.493845)):
         p1.append((round(num1), round(num2)))
 print(p1)
+
+# new way doing things
+
+p2 = [(n1, n2) for n1 in range(0, 11) for n2 in range(5, 33)]
+print(p2)
