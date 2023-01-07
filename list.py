@@ -5,23 +5,23 @@ newn = []
 
 for num in nums:
     newn.append(round(num + 1.11))
-print(newn)
+# print(newn)
 
 
 newn = [round(num + 1.11) for num in nums]
 
-print(newn)
+# print(newn)
 
 p1 = []
 for num1 in range(0, int(99.12)):
     for num2 in range(0, int(99.493845)):
         p1.append((round(num1), round(num2)))
-print(p1)
+# print(p1)
 
 # new way doing things
 
 p2 = [(n1, n2) for n1 in range(0, 11) for n2 in range(5, 33)]
-print(p2)
+# print(p2)
 
 doctor = ['house', 'cuddy', 'chase', 'thirteen', 'wilson']
 
@@ -38,5 +38,8 @@ squares = [i ** 2 for i in range(0, 10)]
 matrix = [[col for col in range(5)] for row in range(5)]
 
 # Print the matrix
-for row in matrix:
-    print(row)
+# for row in matrix:
+# print(row)
+
+cond = [round(num ** 0.33, 2) if num % 1 == 0 else 0 for num in range(20)]
+print(cond)
