@@ -22,3 +22,11 @@ print(p1)
 
 p2 = [(n1, n2) for n1 in range(0, 11) for n2 in range(5, 33)]
 print(p2)
+
+doctor = ['house', 'cuddy', 'chase', 'thirteen', 'wilson']
+
+
+# def sort_it_out:
+#     for doc in doctor:
+#         doc[0]
+#     return
